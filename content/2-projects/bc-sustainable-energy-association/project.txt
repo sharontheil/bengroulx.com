@@ -1,0 +1,41 @@
+Title: BC Sustainable Energy Association
+
+----
+
+Type: Web Design
+
+----
+
+Colour: #1ba0e2
+
+----
+
+Year: 2014
+
+----
+
+Role: Designer
+
+----
+
+Text: 
+
+(image: bcsea-redesign-screen.jpg)
+
+(image: bcsea-redesign-visual.png)
+
+----
+
+Tags: 
+
+----
+
+Metatitle: BCSEA web design
+
+----
+
+Metadesc: 
+
+----
+
+Categories: User interface (UI) design, User experience (UX) design

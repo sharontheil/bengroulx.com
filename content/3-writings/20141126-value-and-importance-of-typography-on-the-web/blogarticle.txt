@@ -1,0 +1,95 @@
+Title: The Value and Importance of Typography On the Web
+
+----
+
+Date: 2014-11-26
+
+----
+
+Text: 
+
+Recently, I had an old friend of mine reach out to say that she was interested in pursuing design — particularly web design. She had just completed a Bachelors of Fine Arts, and was now looking for something “practical” to apply her skills to. She wanted to know where to start. My recommendation? **Learn about typography**.
+
+Of course, learning about grids, layout, colour, image treatments, etc. are all important aspects of visual design that are important to also know. But if your knowledge and understanding of typography isn’t up to par, you risk damaging the user experience of your work. Typography is the foundation of design; it alone can make or break a website.
+
+But before we jump in too far talking about how to use type successfully, let’s continue looking at what it is — why it is so important.
+
+## What is typography?
+
+Typography is the arrangement of written content: letters, words, sentences, paragraphs, pages. It’s taking text and optimizing it in such a way to enhance information design, create visual interest, and strengthen comprehensibility. Tim Brown of Typekit writes:
+
+>“Typography is how text looks, which is the cumulative result of many small decisions … Typography encompasses every element in a composition, from paragraphs to headings, lists, navigation, forms, and more, as well as the spaces between and around those elements.”  
+(_[Typography is how text looks, 2014](http://practice.typekit.com/lesson/typography-is-how-text-looks/)_)
+
+So typography is the way written content is laid out. But it is also the designing of a system, the combination and interaction of written words with images, video, icons, colour — the whole lot. Understanding typography on a macro level (overall structure of a system) is just as important as the micro (the details of type and spacing).
+
+## Why is typography so important?
+
+Oliver Reichenstein of iA declared in 2006 “95% of the information on the web is written language.” While that number might be high and may seem improbable, the goal of the statement is clear: words are everywhere, and without them the web wouldn’t be the same. Mig Reyes of Signal vs. Noise reminds us that [design is still about words](https://signalvnoise.com/posts/3404-reminder-design-is-still-about-words) by comparing websites before and after text…
+
+(image: gmail.jpg class: image-contain)
+(image: twitter.jpg  class: image-contain)
+
+Websites are containers of content, and the devices we use to access that information are conduits to this information. Or better yet, “windows,” as Karen McGrane calls them. She writes:
+
+>“It’s time to stop imagining that smartphones, tablets, and desktops are containers that each hold their own content, optimized for a particular browsing or reading experience. Users don’t think of it that way. Instead, users imagine that each device is its own window onto the web.”
+(_[Windows on the Web, 2013](http://alistapart.com/column/windows-on-the-web)_)
+
+The whole _reason_ why people visit websites is to get your content. Almost everything designers do is to accentuate and optimize this content. And typography does that precisely, as noted by Oliver Reichenstein: “Optimizing typography is optimizing readability, accessibility, usability(!), overall graphic balance.” (_[Web Design is 95% Typography, 2006](https://ia.net/blog/the-web-is-all-about-typography-period/)._) Arfa Mirza writes:
+
+>“Typography is important for one reason: because it is the primary way that designers can communicate with readers… whether the medium be a book, a print advertisement, billboard, or a television show, typography is important because it the embodiment of the visual language.”
+(_[Web Design Basix: Why Typography Matters, 2011](http://webdesign.tutsplus.com/articles/web-design-basix-why-typography-matters--webdesign-1937)_)
+
+So typography is important. Really important.
+
+## Where does one begin learning about typography?
+
+Typography has an extensive and rich history. It’s impossible to know where it began: Is it with the Ancient Egyptians and their composition and layout of hieroglyphics on stone? Is it in 1800BCE in ancient Greece? There is plenty to explore, and I implore you to do some research on your own if this interests you.
+
+Modern day typography theory, however, began in the 15th century with the dawn of the printing press. And it’s been evolving ever since. In recent years, typography jumped forward in the evolutionary chain with the rise in prominence of screens. And with responsive web design, type must now reflow and reorganize itself to best accommodate the device on which it is being viewed… how exciting!
+
+There is much to cover if we are to learn, and the best place to truly understand type is in curated or authored books — yes, real books. I suggest the following for getting started learning about typography’s history, practical usages, and theory.
+
+*   [On Web Typography](http://www.abookapart.com/products/on-web-typography), by Jason Santa Maria
+*   [The Typographic Desk Reference](http://typedeskref.com), by Theodore Rosendorf
+*   [The Elements of Typographic Style](http://webtypography.net) by Robert Bringhurst
+*   [Practical Typography](http://practicaltypography.com) by Matthew Butterick
+*   [Typekit Practice](http://practice.typekit.com)
+*   [The Form of the Book by](http://books.google.ca/books/about/The_form_of_the_book.html?id=EzNUAAAAMAAJ) by Jan Tschichold
+*   [Thinking With Type](http://www.thinkingwithtype.com) by Ellen Lupton
+*   [Detail In Typography](https://hyphenpress.co.uk/products/books/978-0-907259-34-3) by Jost Hochuli
+
+## The effects of typography
+
+Beat­rice Warde noted that typography should be “invisible,” (_[The Crystal Goblet, 1932](http://gmunch.home.pipeline.com/typo-L/misc/ward.htm)_), a quote that has been misunderstood by many to mean that type should not and does not affect text. But "invisible" means typography has been suitably, appropriately chosen and manipulated to augment the message and meaning of the text. In the end, typography is a method for helping text do what text does: convey. Typography affects the way we read, it affects the way we feel, and it ultimately helps us understand.
+
+With practice, one can make typographic decisions that will strengthen the text and help it articulate itself better. Tim Brown says, “Typography not only conveys the meaning of text, it adds meaning to text.” Thomas Phinney writes in _Communication Arts_:
+
+>“It’s like watching a film: The average movie-goer knows little or nothing about camera movement and film editing, and rarely consciously notices these things, yet directors can still affect viewers by using these techniques. Similarly, people can be affected by good typography without being actively aware of it.”
+(_[How to Explain Why Typography Matters](http://www.commarts.com/columns/how-explain-typography)_)
+
+You can become better at making these typographic decisions by observing. What do you look for when observing type? Search for text that is emotive, communicates, and is clear in intent. Matthew Butterick notes that “Your ability to produce good typography depends on how well you understand the goals of your text, not on taste or visual training.” Some great places to look at typography examples are:
+
+*   [Fonts In Use](http://fontsinuse.com)
+*   [Typekit: Using Type blog](http://blog.typekit.com/category/using-type/)
+*   [We Love Typography](http://welovetypography.com)
+
+Go out of your way to observe type in the wild: street signs, brochures, posters - and especially on the Web. The Web offers such a vast repertoire of fonts and typefaces and typographic decisions right at our fingertips, and it is yours to explore. Dissect type, and consider the decisions that went into the design: font choice, spacing, context, emotion, etc.
+
+Understanding typography is a learned skill. Go out and practice it, ask questions, and get lots of feedback. Your designs — and your audience — will thank you for it.
+
+<p style="text-align:center;opacity:0.3;margin:3em inherit;">*</p>
+
+**Note:** *this article was originally titled “(link: http://www.customfitonline.com/news/2014/11/26/value-and-importance-of-typography-on-the-web/ text: The Value and Importance of Typography On the Web),” and published on the Custom Fit Online blog. View the original article there.*
+
+----
+
+Metatitle: The Value and Importance of Typography On the Web
+
+----
+
+Metadesc: If your knowledge and understanding of typography isn't up to par, you risk damaging the user experience of your work. Typography is the foundation of design; it alone can make or break a website. Learn about type today!
+
+----
+
+Audiotime: 

@@ -1,0 +1,21 @@
+Title: Contact
+
+----
+
+Text: 
+
+The easiest way to reach me is by saying hello via Twitter (link: https://twitter.com/bengroulx text: @bengroulx class: icon-twitter ). You might wish to add me personally on (link: https://plus.google.com/+BenGroulx/posts text: Google+ class: icon-google-plus), connect with me professionally on (link: http://linkedin.com/in/bengroulx text: LinkedIn class: icon-linkedin), and follow my photographic adventures on (link: http://instagram.com/bengroulx/ text: Instagram class: icon-instagram) as well.
+
+I live and work out of Vancouver, BC, but often travel up the (link: https://flickr.com/search/?text=Sea%20To%20Sky text: Sea-to-Sky Corridor) to Pemberton. If you are in the area, I would be delighted to meet in person and discuss future projects, consulting, design-related opportunities, or simply life in general. My favourite place to meet is the (link: http://thegallerycafe.ca text: Vancouver Art Gallery Café); we should get together.
+
+----
+
+H1: Let’s Get In Touch
+
+----
+
+Metatitle: Contact
+
+----
+
+Metadesc: Ready to get in touch with Ben Groulx? Call or send an email to discuss future projects, consulting, design-related opportunities, or simply life in general.

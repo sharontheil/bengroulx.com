@@ -1,0 +1,43 @@
+Title: Mile One Eating House
+
+----
+
+Type: Web Design
+
+----
+
+Colour: #f1d150
+
+----
+
+Year: 2014
+
+----
+
+Role: Designer
+
+----
+
+Text: 
+
+(image: mile-one-eating-house-screen.jpg)
+
+(image: mile-one-eating-house-redesign-mobile.png)
+
+(link: http://mileoneeatinghouse.com/ text: See the Mile One Eating House site live → class: button)
+
+----
+
+Tags: more
+
+----
+
+Metatitle: Mile One Eating House web design
+
+----
+
+Metadesc: Ben Groulx led the design process of the Mile One Eating House website. Read more about the redesign in this case study.
+
+----
+
+Categories: User interface (UI) design, Art direction, Front-end development

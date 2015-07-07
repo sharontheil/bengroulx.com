@@ -1,0 +1,45 @@
+Title: Lodging Ovations
+
+----
+
+Type: Web Design
+
+----
+
+Year: 2014
+
+----
+
+Text: 
+
+(image: lodging-ovations-screen.jpg)
+
+(image: lodging-ovations-design-mobile.png)
+
+(image: lodging-ovations-design-desktop.s2.png)
+
+(link: http://lodgingovations.com/ text: See the Lodging Ovations sites live → class: button)
+
+----
+
+Tags: case study
+
+----
+
+Colour: #c2925d
+
+----
+
+Role: Lead Designer
+
+----
+
+Metatitle: Lodging Ovations web design
+
+----
+
+Metadesc: Ben Groulx led the design process of the Lodging Ovations website. Read more about the redesign in this case study.
+
+----
+
+Categories: User interface (UI) design, User experience (UX) design, Art direction, Front-end development

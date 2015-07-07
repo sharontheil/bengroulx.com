@@ -1,0 +1,41 @@
+Title: Volum
+
+----
+
+Year: 2015
+
+----
+
+Tags: more
+
+----
+
+Text: 
+
+(image: volum.jpg)
+
+(image: volum-design.png)
+
+----
+
+Type: OS X App Design
+
+----
+
+Colour: #d35400
+
+----
+
+Role: UI Designer
+
+----
+
+Metatitle: Volum OS X app design
+
+----
+
+Metadesc: Ben Groulx led the design process of the Volum app. Read more about the design in this case study.
+
+----
+
+Categories: User interface (UI) design

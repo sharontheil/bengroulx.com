@@ -1,0 +1,13 @@
+Title: Writings
+
+----
+
+H1: Latest Writings
+
+----
+
+Metatitle: Writings (Blog)
+
+----
+
+Metadesc: Ben Groulx occasionally writes blog articles about web design and development, but also jots down personal and life experiences and thoughts.

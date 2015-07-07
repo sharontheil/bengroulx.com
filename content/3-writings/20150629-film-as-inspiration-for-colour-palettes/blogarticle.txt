@@ -1,0 +1,39 @@
+Title: Using Film for Inspiration When Creating Colour Palettes
+
+----
+
+Date: 2015-06-29
+
+----
+
+Audiotime: 
+
+----
+
+Text: 
+
+When coming up with colour palettes and themes for projects, oftentimes designers can be limited due to brand guidelines. But when we get the freedom to come up with original colours palettes, looking elsewhere for inspiration can be fun and interesting.
+
+Film is an excellent place to draw inspiration. Looking to movies with famous cinematographers, like (link: http://imdb.com/name/nm0005683/ text: Roger Deakins) and (link: http://imdb.com/name/nm0523881/ text: Emmanuel Lubezki), opens up a whole world of beautiful colour combinations and palettes that have incredibly powerful emotional responses.
+
+There exists a myriad of colour extractor out there — a quick Google search yields 60,000,000+ results —  but my favourite is (link: https://color.adobe.com/ text: Adobe Color CC) (once Kuler). The web app lets you switch between colour styles, such as “bright” or “muted” to pick a series of colours in a certain style.
+
+The following images were created using Adobe Color CC, and show some wonderful palettes taken directly from film stills.
+
+(image: colour-in-film-grand-budapest-hotel.jpg caption: The Grand Budapest Hotel [2014] © Fox Searchlight Pictures class: image-contain)
+(image: colour-in-film-hugo.jpg caption: Hugo [2011] — © Paramount Pictures class: image-contain)
+(image: colour-in-film-brave.jpg caption: Brave [2012] © Walt Disney Studios class: image-contain)
+(image: colour-in-film-skyfall.jpg caption: Skyfall [2012] © MGM/Columbia Pictures class: image-contain)
+(image: colour-in-film-her.jpg caption: Her [2013] © Warner Bros. Pictures class: image-contain)
+(image: colour-in-film-under-the-skin.jpg caption: Under the Skin [2013] © Film4 class: image-contain)
+(image: colour-in-film-close-encounters.png caption: Close Encounters of the Third Kind [1977] © Columbia Pictures class: image-contain)
+
+By looking in places outside of your usual areas, you open yourself up to seeing so many interesting and inspiring combinations. Film is one of those areas that can help you. Do you have any colour palettes inspired by movies? Something that evokes a strong emotional response or tone?
+
+----
+
+Metatitle: Film as Inspiration for Colour Palettes
+
+----
+
+Metadesc: Film is a great place to find inspiring colour palettes. Looking to movies with famous cinematographers opens up a whole world of beautiful colour combinations with strong emotional impacts.

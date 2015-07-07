@@ -1,0 +1,17 @@
+Title: Ben Groulx, Designer
+
+----
+
+Author: Ben Groulx
+
+----
+
+Description: Ben Groulx is crafting, consulting, and contemplating web products as a interface designer with a major focus on user experience in Vancouver, BC.
+
+----
+
+Keywords: User Experience,User Interface,Designer,Design
+
+----
+
+Copyright: Copyright © 2015 Ben Groulx. All Rights Reserved.

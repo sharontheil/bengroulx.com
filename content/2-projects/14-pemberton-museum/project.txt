@@ -1,0 +1,47 @@
+Title: Pemberton Museum & Archives
+
+----
+
+Year: 2012
+
+----
+
+Text: 
+
+(image: pemberton-museum-design.jpg)
+
+(image: pemberton-museum-sketch.jpg class: image-contain)
+
+(link: http://pembertonmuseum.org/ text: See the Pemberton Museum site live → class: button)
+
+(image: pemberton-museum-desktop.png)
+
+(image: pemberton-museum-mobile.png)
+
+----
+
+Tags: more
+
+----
+
+Type: Web Design
+
+----
+
+Colour: #392f2a
+
+----
+
+Role: Lead Designer
+
+----
+
+Metadesc: 
+
+----
+
+Metatitle: Pemberton Museum & Archives web design
+
+----
+
+Categories: User interface (UI) design, Front-end development

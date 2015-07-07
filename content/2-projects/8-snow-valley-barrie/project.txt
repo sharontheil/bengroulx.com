@@ -1,0 +1,47 @@
+Title: Snow Valley
+
+----
+
+Type: Web Design / Ecommerce
+
+----
+
+Colour: #ca1598
+
+----
+
+Year: 2014
+
+----
+
+Role: Lead Designer
+
+----
+
+Text: 
+
+(image: snow-valley-screen.jpg)
+
+(link: http://skisnowvalley.com/ text: See the Snow Valley site live → class: button)
+
+(image: snow-valley-colour.jpg caption: Various colour schemes/palettes applied to the homepage)
+
+(image: snow-valley-redesign-mobile.png)
+
+(image: snow-valley-redesign-desktop.png)
+
+----
+
+Tags: case study
+
+----
+
+Metatitle: Snow Valley Barrie web design
+
+----
+
+Metadesc: Ben Groulx led the design process of the Snow Valley, Barrie website. Read more about the redesign in this case study.
+
+----
+
+Categories: User interface (UI) design, Front-end development

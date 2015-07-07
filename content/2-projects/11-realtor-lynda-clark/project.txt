@@ -1,0 +1,52 @@
+Title: Lynda Clark, Realtor®
+
+----
+
+Year: 2014
+
+----
+
+Text: 
+
+(image: lynda-clark-screen.jpg)
+
+(link: http://lyndaclark.com/ text: See Lynda Clark’s website live → class: button)
+
+(image: lynda-clark-sketch.jpg class: image-contain)
+
+(image: lynda-clark-site-flow.png class: image-contain)
+
+(image: lynda-clark-mobile.png)
+
+> (link: https://www.linkedin.com/in/bengroulx/#recommendations text: Ben created my professional website. He had a lot of creative ideas and was easy to work with. He explained every step along the way and made prompt changes when requested. I would highly recommend Ben and I would also use his services again.)
+
+**Lynda Clark**
+*Representative at Whistler Real Estate Co. Ltd.*
+
+----
+
+Tags: more
+
+----
+
+Type: Web Design
+
+----
+
+Colour: #bb1037
+
+----
+
+Role: Lead Designer
+
+----
+
+Metatitle: Lynda Clark, Realtor® web design
+
+----
+
+Metadesc: Ben Groulx led the design process of the Lynda Clark website. Read more about the redesign in this case study.
+
+----
+
+Categories: User interface (UI) design, User experience (UX) design, Front-end development, Web hosting
