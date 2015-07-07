@@ -1,14 +1,11 @@
 <!-- FOOTER -->
 <footer class="diagonal reverse">
     <div class="diagonal-inner">
-        <p>
-            <a href="<? echo url('terms-conditions'); ?>">Terms&nbsp;of&nbsp;Use</a>&emsp;<a href="<? echo url('terms-conditions'); ?>">Privacy&nbsp;Policy</a>&emsp;<a href="<? echo url('about/#colophon'); ?>">Site&nbsp;Colophon</a>
-            <br/>
-            <br/>
-            <?php echo $site->copyright() ?>
-            <br/>
-            Made with &hearts; in Vancouver, BC.
-        </p>
+        <p><a href="<? echo url('terms-conditions'); ?>">Terms&nbsp;of&nbsp;Use</a>&emsp;<a href="<? echo url('terms-conditions'); ?>">Privacy&nbsp;Policy</a>&emsp;<a href="<? echo url('about/#colophon'); ?>">Site&nbsp;Colophon</a></p>
+        <br/>
+        <p><?php echo $site->copyright() ?><br/>Made with &hearts; in Vancouver, BC.</p>
+        <br/>
+        <p><a href="https://github.com/bengroulx/bengroulx.com">Check out this site’s source on GitHub</a></p>
     </div>
 </footer>
 
