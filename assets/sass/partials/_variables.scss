@@ -1,0 +1,112 @@
+// typefaces
+$font_main: "roboto", "helvetica neue", sans-serif;
+$font_title: $font_main;
+$font_emphasis: $font_main;
+
+// colours
+$white: #ffffff;
+$black: #211f34;
+$blue:  mix($black, mix($black, blue));
+$grey:  desaturate(lighten($blue, 50%), 50%);
+$gold:  #a39364;
+
+// animation
+$animation-duration: 0.7s;
+
+// determine responsive breakpoints
+@mixin break($point) {
+	@if $point == grande {
+		@media (min-width: 37em) { @content; }
+	}
+	@else if $point == venti {
+		@media (min-width: 60em) { @content; }
+	}
+	@else if $point == tetra {
+		@media (min-width: 80em) { @content; }
+	}
+	@else if $point == supersize {
+		@media (min-width: 100em) { @content; }
+	}
+}
+
+// center vertically and/or horizontally an absolute positioned element
+@mixin center($xy:xy) {
+    @if $xy == xy {
+        left: 50%;
+        top: 50%;
+        bottom: auto;
+        right: auto;
+        @include transform(translateX(-50%) translateY(-50%));
+    }
+    @else if $xy == x {
+        left: 50%;
+        right: auto;
+        @include transform(translateX(-50%));
+    }
+    @else if $xy == y {
+        top: 50%;
+        bottom: auto;
+        @include transform(translateY(-50%));
+    }
+}
+@mixin _clearfix {
+    zoom: 1;
+	    &:after,
+	    &:before {
+	        display: block;
+	        height: 0;
+	        overflow: hidden;
+	        content: "\0020";
+	    }
+	    &:after {
+	        clear: both;
+	    }
+}
+@mixin column($percentage, $float-direction:left) {
+    width: 100% * $percentage;
+    float: $float-direction;
+}
+@mixin _fadeIn {
+	-webkit-animation: fade-in 1s ease-in;
+	   -moz-animation: fade-in 1s ease-in;
+	    -ms-animation: fade-in 1s ease-in;
+	     -o-animation: fade-in 1s ease-in;
+	     	animation: fade-in 1s ease-in;
+}
+@mixin _animateLower {
+	-webkit-animation: fade-in-right 1s ease-out;
+	   -moz-animation: fade-in-right 1s ease-out;
+	   	-ms-animation: fade-in-right 1s ease-out;
+	   	 -o-animation: fade-in-right 1s ease-out;
+	   	    animation: fade-in-right 1s ease-out;
+}
+@mixin _animateBlip() {
+	-webkit-animation: blip 2s infinite ease-out;
+	   -moz-animation: blip 2s infinite ease-out;
+	    -ms-animation: blip 2s infinite ease-out;
+	     -o-animation: blip 2s infinite ease-out;
+	   	    animation: blip 2s infinite ease-out;
+}
+@mixin _colorchange() {
+	-webkit-animation: colorchange 15s infinite ease-in-out;
+	   -moz-animation: colorchange 15s infinite ease-in-out;
+	    -ms-animation: colorchange 15s infinite ease-in-out;
+	     -o-animation: colorchange 15s infinite ease-in-out;
+	   	    animation: colorchange 15s infinite ease-in-out;
+}
+@include keyframes(fade-in) {
+	0%   { opacity: 0; }
+	100% { opacity: 1; }
+}
+@include keyframes(fade-in-right) {
+	0%   { opacity: 0; margin-left: -5em; }
+	20%  { opacity: 0; margin-left: -3em; }
+	100% { opacity: 1; margin-left: 0; }
+}
+@include keyframes(blip) {
+	0%	 { opacity: .5; }
+	100% { opacity: 0; @include transform(scale(4)); }
+}
+@include keyframes(come-in) {
+    to { transform: translateY(0); opacity: 1; }
+}
