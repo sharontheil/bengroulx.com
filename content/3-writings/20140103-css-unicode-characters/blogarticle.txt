@@ -1,0 +1,95 @@
+Title: Using Unicode Characters In Your Stylesheets
+
+----
+
+Text: 
+
+<span id="dropcap">I</span> absolutely love <small>CSS</small>: it is a language that is easy to understand, is very simplistic, yet offers such a wealth of possibility and flexibility as to what can be achieved with it. As I have been developing more and more as time progresses, and my love affair with coding continues to grow, I try to rely on <small>CSS</small> for as much has possible. Putting aside some backwards-compatibility issues with <small>CSS</small>3 or specific vendor prefixes, it is an exceptionally accessible language that (if written and maintained properly) is also quite lightweight.
+
+It only makes sense to do as much work as you can with <small>CSS</small>. And while I wholeheartedly believe in the separation of content and style, it occasionally happens that content must be treated as non-content: list bullets, icon graphics, etc. And thus comes in the wonderful combination of the attribute <code>content:</code> and the pseudo elements <code>:before</code> / <code>:after</code>. These pseudo elements latch on to whatever you specify, and what you can do with them is near limitless. Best of all, though, is how <a href="http://css-tricks.com/browser-support-pseudo-elements/">well supported</a> they are. It would seem <code>content:</code> is pretty good too (depending on your audience) at ≥ <small>IE</small>8, which makes our job that much easier when it comes to testing.
+
+It is nearly self-explanatory what the two together do: inject content before / after an element. For example, we could therefore have a word or string of text display an icon next to it.
+
+<pre rel="Sass">
+<code>.icon {
+	<span class="prop">...</span> <span class="comment">// styles for icon</span>
+		&:before {
+			<span class="prop">display:</span> <span class="val">inline-block;</span>
+			<span class="prop">padding-right:</span> <span class="val">.5em;</span>
+			<span class="prop">content:</span> <span class="val">"⌘";</span> <span class="comment">// character not accepted</span>
+		}
+}</code>
+</pre>
+
+However, most Unicode characters — especially the “fancier” ones we want — require a text encoding of <small>UTF</small>-16, whereas our stylesheets are (usually) set to <small>UTF</small>-8; you simply can’t inject them in as they come across as nonexistant characters. So we convert them into characters that *can* render.
+
+After selecting your character of choice (<a target="_blank" href="http://copypastecharacter.com">CopyPasteCharacter</a> and <a target="_blank" href="http://plasticmind.com/labs/symbolassist/">SymbolAssist</a> are excellent tools), head over to your browser console and use…
+
+<pre rel="Console">
+<code>"<span class="val">⌘</span>".charCodeAt<span class="comment">(</span><span class="prop">0</span><span class="comment">)</span>.toString<span class="comment">(</span><span class="prop">16</span><span class="comment">)</span>;
+<span class="comment">// output is 2318</span>
+</code>
+</pre>
+
+…to spit out your <small>UTF</small>-16 translated string. Throw this into your <code>content:</code> value, and your browser will re-translate it back into that lovely character.
+
+<pre rel="Sass">
+<code>.icon {
+	<span class="prop">...</span> <span class="comment">// styles for icon</span>
+		&:before {
+			<span class="prop">display:</span> <span class="val">inline-block;</span>
+			<span class="prop">padding-right:</span> <span class="val">.5em;</span>
+			<span class="prop">content:</span> <span class="val">"\2318";</span> <span class="comment">// use corresponding output</span>
+		}
+}</code>
+</pre>
+
+Unicode glyphs in <small>CSS</small> works for me and this website because I know if the person visiting this site is using a devices capable of rendering the characters. (Being data-driven <small>FTW</small>!) For example, I am using this technique on the map in the <a href="http://bengroulx.com/#connect">Connect</a> section on this site for large viewports. I’ve furthered this idea (or reduced it, depending on how you look at it) and used an invisible character with a styled background.
+
+<pre rel="Sass">
+<code>.map-location {
+	<span class="prop">...</span> <span class="comment">// styles for text phrase</span>
+		&:after {
+			<span class="prop">display:</span> <span class="val">inline-block;</span>
+			<span class="prop">width:</span> <span class="val">.7em;</span>
+			<span class="prop">height:</span> <span class="val">.7em;</span>
+			<span class="prop">margin-left:</span> <span class="val">.5em;</span>
+			<span class="prop">border-radius:</span> <span class="val">99em;</span>
+			<span class="prop">background:</span> <span class="val">blue;</span>
+			<span class="prop">content:</span> <span class="val">"\0020";</span>
+		}
+}</code>
+</pre>		
+
+I could have just as easily used ⚫ (<code><span>&</span>#9899;</code>) or ● (<code><span>&</span>#9679;</code>) instead, but I may in the future wish to animate them further.
+
+Now what about webfonts? Sure this is totally doable with webfonts. In fact, I am using a tiny font file to call up the social icons in the same Connect section. For the most part, icon webfonts are fine in modern browsers, but according to Filament Group there are <a target="_blank" href="https://docs.google.com/presentation/d/1n4NyG4uPRjAA8zn_pSQ_Ket0RhcWC6QlZ6LMjKeECo0/">370 million people with devices that do not support webfonts</a>; that’s a lot of broken characters. With webfonts, you’re also decreasing page speed with the extra requests needed to load things up via <code> @font-face</code>, and that <a target="_blank" href="http://chrishateswriting.com/post/68794699432/small-things-add-up">can really add up</a>, especially on larger websites. Even going the image route and using a <code>background-image</code> requires an additional request and adds to the page weight.
+
+<pre rel="CSS">
+<code>.icon {
+	<span class="prop">padding-left:</span> <span class="val">20px;</span>
+	<span class="prop">background:</span> <span class="val">url('image.gif') center left no-repeat;</span> <span class="comment">// compatible</span>
+	<span class="prop">background:</span> <span class="val">url('image.svg') center left no-repeat;</span> <span class="comment">// modern</span>
+}</code>
+</pre>
+
+
+Using Unicode characters in <small>CSS</small> in definitely a viable option for modern web development, but by no means is it perfect. If you’re a perfectionist, you’re going to run into the problem of customizability: these are straight-up letterforms that cannot be altered. Some typefaces include characters such as arrows and flourishes, but when it comes to (link: http://www.fileformat.info/info/unicode/char/263b/index.htm text: White Smiling Face), you’ve only got one.
+
+There’s also the problem of cross-browser compatability for some of the more unusual letterforms. Some Unicode characters are not universally supported by browsers, and can be quite frustrating when realizing they (link: https://twitter.com/wilto/status/405026589576273920 text: do not translate identically everywhere). Did you know the (link: http://emojipedia.org/people/pile-of-poo/ text: 💩 smiling pile of poo) is more than just an Apple emoji? Unicode. Output of \1F4A9 or \D83D. You’ll have one hell of a time trying to get that to work well, though. Just like everything else in the dev world, check beforehand to make sure what you’ve written is supported, and test, test, test everywhere.
+
+----
+
+Date: 2014-01-03
+
+----
+
+Author: bengroulx
+
+----
+
+Metatitle: Using Unicode Characters In Your Stylesheets
+
+----
+
+Metadesc: Using webfonts or images can hurt page weight and page speed, so use Unicode characters in your CSS. You can even use the browser console to easily find a specific character encoding.

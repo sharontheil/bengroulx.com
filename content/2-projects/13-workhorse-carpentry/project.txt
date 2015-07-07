@@ -1,0 +1,47 @@
+Title: Workhorse Carpentry ltd.
+
+----
+
+Type: Web Design / Graphic Design
+
+----
+
+Year: Ongoing
+
+----
+
+Text: 
+
+(image: workhorse-carpentry-design.jpg)
+
+(image: workhorse-carpentry-mobile.png)
+
+(link: http://workhorsecarpentry.ca/ text: View the WCL website live → class: button)
+
+(image: workhorse-carpentry-logo.jpg class: image-contain)
+
+(image: workhorse-carpentry-card.jpg)
+
+----
+
+Role: Designer
+
+----
+
+Colour: #333
+
+----
+
+Tags: more
+
+----
+
+Metatitle: Workhorse Carpentry web design & graphic design
+
+----
+
+Metadesc: 
+
+----
+
+Categories: User interface (UI) design, Graphic design, Art direction, Front-end development, Web hosting, Copywriting

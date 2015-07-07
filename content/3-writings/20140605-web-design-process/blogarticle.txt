@@ -1,0 +1,95 @@
+Title: Making Websites Isn’t What It Used To Be… And That’s Good
+
+----
+
+Date: 2014-06-05
+
+----
+
+Audiotime: 
+
+----
+
+Text: 
+
+For some individuals, working in the web industry is maddening — for others, wonderful — because of its every-changing nature. Even for the most advanced and prolific designers and developers, keeping up with the web’s advancements can be daunting.
+
+What has stayed true through each trend and movement, despite the many transformations and evolutions it has gone through, is the web’s nature of being open and accessible. To this day, creating and sharing information is at the core of what the web is.
+
+So in this day and age, what is the process of making a website? In terms of design and development, we have come a long way since the 90’s: websites aren’t built on tables and inline styles anymore; pages are no longer individually built, instead systems are; we don’t take static mockups and replicate them with code anymore. Etcetera, etcetera, etcetera... so what is the ideal route to get from Point A to Point B?
+
+Nowadays almost anyone can create a website as it does not take much technical know-how to get set up and going on the web. Sites like Tumblr, Wordpress, and the onslaught of easy-to-make site creators are extremely popular because of their ease of use and few requirements.
+
+But building websites for today’s technologies require skills and knowledge one cannot simply get from an online site creator.
+
+That is why we have so many types of designers and disciplines in the web community: product designers, user experience designers, user interface designers, engineers, programmers, strategists... the list goes on! Each designer and developer has an area of specialty, and they come together to craft well-thought-out, engaging, fitting products.
+
+## The Universal Process
+
+Every designer and/or design firm will have a slightly different process with many different stages, phases, and components. Almost universally though exists a formula, and it looks a little something like this:
+
+(image: web-design-process.png)
+
+From beginning to end, every bit of work that goes into making a website will fall into either of the *plan* → *make* → *evolve* blocks. There might be any number of steps in each of them, but (in general) the philosophy is direct and process is linear: make a good product that has been researched and evaluated, and continually improve that product over time.
+
+Remember, designers and developers want to make products — be it a website, web app, or other products — that achieve both their client's and their client's users' goals. Let’s dive in to each of the three blocks.
+
+### Block One: Plan
+
+Planning is the largest block of the web design process, both in terms of time, effort, and importance. The proverb “measure twice, cut once” comes to mind. Planning involves a great deal steps and encompasses a huge number of tasks. It involves many people in varying disciplines, such as project managers, content strategists (CS), user experience designers (UX), user interface designers (UI), information architects (IA), search engine optimizers (SEO), and data analysts among others. some of the steps involved from these people and their specialties include:
+
+*   **contact** — An initial act of reaching out via a phone call, a tweet, an email, or any other means of getting in touch and showing interest.
+*   **initial meeting** — An initial discussion (either remote or in-person) about desires, costs, timelines, and information discover.
+*   **contract** — A contract is used to secure a deal between designers and clients. it isn’t due to distrust, but rather sets expectations and enforces clarity in the project.
+*   **research** — Probably the largest “phase” of planning, research entails many exercises, activities, and entities to uncover what makes the client tick, what their values and goals are, who their audience is (and who they want it to be), where they’ve been — and where they hope to go.
+*   **personas** — Websites are made with a specific target audience in mind. Personas are the epitome of the ideal audience member, and the remainder of the project is tailored to this imaginary user.
+*   **content inventory** — Mapping everything that exists on the current site (if applicable) and seeing what does and does not work, if patterns exists, and to set the stage in terms of history and thought.
+*   **kickoff design exercises**— A series of exercises and activities in designers will hold with clients in order to understand the mindset and desires of the clients.
+*   **content strategy** — what kind of tone and voice should encompass the website’s content? who will create and maintain this content? Where, when,  and how will it be published?
+*   **sitemapping** — A compilation and arrangement of components, modules,  and pages into a structured folder-like system.
+*   **SEO research** — You may need to perform keyword research, competitors  analysis, and content planning to ensure your website is advertised, shared,  and discovered as best as it can.
+*   **wireframing** — A visual blueprint that details out all of the website's functionality, user flows, layouts, and so, so much more.
+
+### Block Two: Make
+
+The actual "making" of a website involves taking everything that has been discovered and everything that has been formulated and creating the tangible product.
+
+Specialists in this block include everyone from the previous block to some extent, but the bulk of this falls primarily into the laps of user experience designers (UX), user interface designers (UI), visual designers, front-end developers, back-end developers, programmers, and CMS architects.
+
+*   **prototyping** — Prototyping is the evolution of the wireframes; it’s taking what has been sketched and planned out and turning it into a functional skeleton that we can view and test in-browser.
+*   **visual inventories** — A comprehensive array of existing styles, themes, motifs, and patterns that the client can select from.
+*   **user interface design** — An amalgamation of brand patterns (such as colour, type, imagery, etc.) that is combined with the prototype to "flesh it out" and bring it to life.
+*   **CMS development** — The content management system is built to accommodate all the requirements the client will need to create and maintain content.
+*   **database setup** — Every website needs a home. certain content and functionality may only exist because of server-side programming.
+*   **website development** — The bulk of the build block, website development is the act of coding and programming. This includes core languages such as HTML, CSS, and Javascript, and even additional website-specific languages such as Ruby, PHP, Java, XSLT, etc.
+*   **quality assurance testing** — A check to make sure there are no broken links, broken pages, missing functionality, completed content, etc.
+*   **device testing** — A website is tested on a multitude of devices and browsers, ranging from the tiny to the enormous, to ensure an enhanced, optimized experience for each and every user.
+
+### Block Three: Evolve
+
+A website development project is not completed on launch. After what goes out live, there must be promotion and analysis that actually bring users to the site, and seeing if what was made actually worked. The evolve block involves every step done after the actual building, including:
+
+*   **CMS training** — Making sure all necessary parties on the client’s team understand the capabilities and limitations of the content management system.
+*   **site optimization** — Site optimization refers to a variety of performance factors including A/B and multi-variate testing. this sort of optimization tests what content and functionality of your website is working, what isn’t, and what can be updated, revised, and tweaked to improve overall website goals.
+*   **site maintenance** — Doing routine checkups and reviews to make sure content, functionality, and design decisions are intact and performing as desired.
+*   **digital analytics** — Reviewing who is doing what on the website. By pulling metrics and studying how users are interacting with the website, one can determine and suggest changes and improvements.
+*   **analysis and testing** — Studying the analytics and testing iterations.
+*   **A/B testing** — Testing multiple versions to a large group of users, and studying which route performs best.
+*   **social media marketing** — Promotion and marketing on various social media channels, including Facebook, Google+, Twitter, Pinterest, YouTube, TripAdvisor, Yelp, and Foursquare, among others.
+*   **email marketing** — The sending out (and studying of user reaction) of email newsletter campaigns.
+
+## Refining the Web Design Process
+
+Web technologies are always changing — and changing rapidly at that. Refining the web design process has been a challenge since this wonderful medium’s inception, and although we’re not at an end point, we’ve made incredible headway. As long as the emphasis of a process is based on learning your clients’ needs, studying their audience’s behaviours, making valid, well thought-out products, and then continually refining that end product, any process at all really will do.
+
+***
+
+**Note:** *this article was originally titled “(link: http://www.customfitonline.com/news/2014/6/5/process-of-designing-and-building-a-website-in-2014/ text: The Process of Designing and Building a Website in 2014),” and published on the Custom Fit Online blog.  You can download a “magazine” form of it from (link: http://issuu.com/customfitonline/docs/web-design-process/1 text: ISSUU) if you’d prefer a hard copy.*
+
+----
+
+Metatitle: Making Websites Isn’t What It Used To Be
+
+----
+
+Metadesc: What is the process of making a website? We have come a long way since the 90’s...so what is the ideal modern route to get from Point A to Point B?

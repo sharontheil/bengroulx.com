@@ -1,0 +1,49 @@
+Title: Whistler Foundation
+
+----
+
+Year: 2012
+
+----
+
+Text: 
+
+(image: whistler-foundation-design.jpg)
+
+(image: whistler-foundation-sketch.jpg class: image-contain)
+
+(image: whistler-foundation-colour-swatches.jpg class: image-contain)
+
+(link: http://whistlerfoundation.com/ text: See the Whistler Foundation website live → class: button)
+
+(image: whistler-foundation-desktop.png)
+
+(image: whistler-foundation-mobile.png)
+
+----
+
+Tags: more
+
+----
+
+Type: Web Design
+
+----
+
+Colour: #33c588
+
+----
+
+Role: Lead Designer
+
+----
+
+Metadesc: Ben Groulx led the design process of the Whistler Foundation website. Read more about the redesign in this case study.
+
+----
+
+Metatitle: Whistler Foundation web design
+
+----
+
+Categories: User interface (UI) design, Front-end development

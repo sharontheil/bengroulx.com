@@ -1,0 +1,67 @@
+Title: Using Animation in Modern-Day Web Design
+
+----
+
+Date: 2015-03-23
+
+----
+
+Author: bengroulx
+
+----
+
+Text: 
+
+One of the many wonderful things about web design is its inherent interactivity: touch, click, move, play, hear, watch, engage… the web allows us to interact with it digitally in interesting ways. Animation is one of the things on the web that adds a layer of interest or increases usability, but is it really worth the fuss?
+
+## What Is Animation?
+
+Animation, in the context of digital products like websites and apps, pretty much refers to anything that _moves_ or _transitions_ once the site or app has loaded. Animation can be used in three ways:
+
+*   to add visual interest (i.e. web page slides in from side of screen),
+*   act as a response (i.e. hovering your mouse over an item and something happens),
+*   act as a notification (i.e. a bouncing icon might mean attention is required).
+
+Animations come in a variety of styles and uses, ranging from simple ≥1 second pops or flashes that act as highlights, to complex animations that can be used almost as video. Before we explore whether we should be using animations in our designs, let's take a brief look into the history of animation on the web.
+
+<figure style="border:1px solid #aaa;">
+<img src="https://bengroulx.com/content/3-writings/20150323-should-animation/animated-submit-button.gif" alt="animated-submit-button" />
+<figcaption>An example of an animated submit button by Colin Garven</figcaption>
+</figure>
+
+## Animation Has an Unfortunate History
+
+In the early 2000s, animation on websites exploded in use due to Flash, a popular (at the time) third-party extension installed for your browser. Flash allowed designers to create websites like never before: Things would fly in! Things would rotate! Things would flip and twirl and grow and shrink! Things would explode! It was a new technology that was made accessible to everyone, and for a while there it seemed _everyone_  did have it installed. But with great power comes great responsibility, and web creators were consumed and overwhelmed with possibilities, resulting in websites devolving into style over substance.
+
+We, as users, got sick of this real quick.
+
+Flash became the punchline of web development, and with it animation in general too. While Flash is generally not in use today -- except perhaps for games, and video/audio players, but even those are on their way out in lieu of more modern technologies -- it's detriment to animation on the web is still fresh in the minds of many. But, by using animation in small or subtle amounts and in creative ways, animation is making a come back, and in some ways the real animation boom is just beginning.
+
+Our technologies are at a place where we can create animation with effective end technologies; CSS3, Javascript, SVG, and HTML Canvas are some of the tools we can use right now to create some wonderful animations. But just because we _can_  do it efficiently and practically now, does it mean we _should_?
+
+## Should Animation Be Used Today?
+
+As I write this article, we are in the midst of a huge redesign of the [Lodging Ovations](http://customfitonline.com/portfolio/lodging-ovations/ "Lodging Ovations") property websites. On each property's homepage, we are using animation heavily as a means to create visual interest. The animations on the website are tastefully done, and each adds something fun and unique to the presentation of the site. None of them break the design; the animation is used to enhance a design, not define it. In other words, if the animation did not work, the website would not be rendered useless. Usability is key, and if an animation gets in the way of how we use sites, it need to be rethought.
+
+Should you use animation? Yes. Or no. It depends. Think about what the animation is bringing to the table. Treat animation just like any other design decision: What is its purpose? What is its use? Why does this _thing_ exist?
+
+If you should use a specific animation, consider the following:
+
+*   Does the animation hinder or reduce the usability of the website or app?
+*   Will the animation require extra resources (i.e. extra code/images) that will increase the load time, thereby harming the user experience?
+*   Does the animation improve the user experience of the site in a functional or delightful way?
+*   Is it even possible to create the animation using modern programming?
+
+As long as you use animations in a useful way, and the code required to create the animations is lean and efficient, you generally should have no problem integrating interesting animation into your website or app designs.
+
+<p style="text-align:center;opacity:0.3;margin:3em inherit;">*</p>
+
+**Note:** *this article was originally titled “(link: http://customfitonline.com/news/2015/3/23/animation-in-web-design-pros-cons// text: Should Animation Be Used in Web Design? The Pros & Cons),” and published on the Custom Fit Online blog. View the original article there.*
+
+----
+
+Metatitle: Using Animation in Modern-Day Web Design
+
+----
+
+Metadesc: Animation on websites has been problematic in the past, but we are seeing a resurgence in its popularity due to more modern and accommodating technologies. But just because we can use animation, does it mean we should?

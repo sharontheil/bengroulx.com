@@ -1,0 +1,59 @@
+Title: Various Posters
+
+----
+
+Text: 
+
+(image: poster-vanchan-1.jpg class:image-contain)
+
+(image: poster-vanchan-2.jpg class:image-contain)
+
+(image: poster-vanchan-3.jpg class:image-contain)
+
+(image: poster-ampersand.jpg class:image-contain)
+
+(image: poster-hoedown.jpg class:image-contain)
+
+(image: poster-airborn.jpg class:image-contain)
+
+(image: poster-pemberton.jpg class:image-contain)
+
+(image: poster-sushi.jpg class:image-contain)
+
+(image: poster-wedding.jpg class:image-contain)
+
+(image: poster-coffee.jpg class:image-contain)
+
+(image: poster-winterfest.jpg class:image-contain)
+
+----
+
+Metatitle: Various Posters
+
+----
+
+Metadesc: 
+
+----
+
+Type: Graphic Design
+
+----
+
+Colour: #000
+
+----
+
+Year: Ongoing
+
+----
+
+Role: Designer
+
+----
+
+Categories: Graphic design, Art direction
+
+----
+
+Tags: archived

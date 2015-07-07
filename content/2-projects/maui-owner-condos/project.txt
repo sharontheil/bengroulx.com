@@ -1,0 +1,81 @@
+Title: Maui Owner Condos
+
+----
+
+Type: Web Design / Graphic Design
+
+----
+
+Year: 2015
+
+----
+
+Text: 
+
+(image: maui-owner-condos-tablet.jpg)
+
+## Part 1: Logo Design
+
+(image: maui-owner-condos-logo-final.png class: image-contain)
+
+Plumeria flowers are known throughout the Pacific — Hawaii, most especially — to be used for making leis, a culturally significant (and well known) Hawaiian entity. They are common on all Hawaiian islands, and can be found growing on trees quite easily.
+
+On top of the flower symbol, a multi-coloured approach of yellow, blue, orange, green, and pink is used to bring in and reinforce more of the traditional Hawaii viewpoint. The five colours have been specially selected to emulate the colours found in nature on the islands: water, sand, trees, etc. Each petal has been chosen as a different colour to symbolize an individual person or personality, all coming together and networking in the centre. It is a an extremely playful interaction, yet still quite mature. At a glance, the plumeria can look like a star: this perception is intentional, as it creates a gut reaction.
+
+> The Plumeria style is all about conveying a luxurious, trustworthy, accountable experience while still remaining playful and enticing. 
+
+In the title, the spaces between words have been removed to make it quite clear that Maui Owner Condos is first and foremost a web-based company. The addition of the “.com” at the end helps with this as well. The way the orange and blue petals are placed is reminiscent of MSN, a universally-known company synonymous with the web, reinforcing the “online” aspect of Maui Owner Condos.
+
+By pulling apart the logo, we start to see interesting shapes and lines. By extrapolating some of the curves, one can create a compelling background of flowing colours and shades; it makes for wonderfully captivating textures.
+
+The Plumeria style uses symbols, colours, and styles that work together to form a complete design that shouts ideals of togetherness, trust, and exuberance, encapsulating the visions of Maui Owner Condos.
+
+(image: maui-owner-condos-logo-round1.jpg class: image-contain caption: Initial logo directions)
+
+*** 
+
+## Part 2: Web Design
+
+(image: maui-owner-condos-wireframe-mobile.png class: image-side-left)
+(image: maui-owner-condos-wireframe-desktop.png class: image-side-right)
+
+### Wireframes
+When starting to wireframe, we opted to use the homepage first. It was a great choice to use first as it comprised most of the design patterns found throughout the site. The wireframes were evolved from a content priority exercises we did early on, where we asked the client to sort the order of the most important content groupings. 
+
+(image: maui-owner-condos-content-priority.png class: image-contain)
+
+ Notice right off the bat how content prioritizing gives an rough outline that looks similar to a mobile-view website? That was brought out in the first wireframe called — designed mobile first. The larger version is everything rearranged to make use of the increase area.
+
+### Development
+We had quite a few discussions about how to approach this site from a development standpoint, and have decided to use modules. That means that elements are not attached to pages or templates, but rather as individual groupings that can be applied in any such order. Pages would simply be a collection of various modules. This made swapping elements quick, efficient, and very useful for coming up with new page templates: just pick and choose which blocks you want, and arrange them in the order you want.
+
+### Style Overview
+The style tile was developed by pulling colours and textures in reverse from the logo and brand identity package previously supplied. The style tile is a collage of elements that, when brought together, form a cohesive emotive identity. They work great at the design stages of web design because we can quite literally rip styles for final production. If this were a house, think of this style tile as the wallpaper that is applied to the structure (the wireframe). The implementation stage act of bring everything together: wireframes, modules, styles. These come together — in what you know them as — fully formed “pages.”
+
+(image: maui-owner-condos-styletiles.jpg class: image-contain)
+
+(image: maui-owner-condos-design.png )
+
+----
+
+Tags: 
+
+----
+
+Colour: #cf428c
+
+----
+
+Role: Lead Designer
+
+----
+
+Metatitle: Maui Owner Condos web redesign
+
+----
+
+Metadesc: 
+
+----
+
+Categories: User interface (UI) design, User experience (UX) design, Graphic design, Art direction, Front-end development

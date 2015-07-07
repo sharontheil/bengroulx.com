@@ -1,0 +1,45 @@
+Title: Home
+
+----
+
+Introduction: 
+
+## Vancouver Design Director & Thing Maker
+
+Hey there. My name is Ben, and I am a designer in Vancouver, Canada.  I am the Design Director for (link: http://customfitonline.com text: Custom Fit Online), a Canadian web consulting group, and an independent designer participating in external evaluated ventures. I am also part of the team at (link: http://bitchpopproductions.com/almost-actors text: Bitchpop Productions) where we make comedy web series and films, and a co-host of the (link: http://passpriority.com/ text: Pass Priority podcast), a show about nerd culture.
+
+I try not to attach any words to  *designer*, such as “web,” “interface,” “user experience,” or “digital product” because they are restrictive and non-reflective of the work I do. I design many things: sometimes on my own, sometimes as a part of a team, and sometimes leading others. I help bring consciousness and validity to decisions that affect the outcome of many products, making them elegant, usable, and interpreted, while examining how they can be better presented and utilized.
+
+I’m on a personal mission to be more vociferous, thus occasionally writing (link: writings text: blog articles on this site) while continuing to work on (link: http://survivingartandterror.com text: *Surviving Art & Terror*), a book on the intersection of design and culture.
+
+(link: /about/ text: Find out more about Ben → class: button)
+
+----
+
+Ethics: 
+
+(link: /projects/ text: View all design projects → class: button)
+
+## Ethic
+
+Design is communication in its purest form; successful design is successful communication. Good design needs to be precisely on point, unwaveringly effective, and contain purposeful meaning. But we all already knew this. Yet we’ve managed to deviate from this practice, letting poor imagery selection and “I want this because I just do” mentalities replace ease of use, functionality, and accessibility.
+
+If we are to create successful design for the modern user, we must refocus our attention on the users themselves; form follows function, or in a more accurate modern regard, outline follows desire. We need to concentrate on making our online experiences — formed via design patterns and interfaces — congenial, understandable, recognizable. Simple yet considered.
+
+We live in a device-agnostic world; we cannot control how our products will be accessed, viewed, and interacted with. This quite simply means we must design and craft to accommodate versatility and fluidity.
+
+----
+
+Manifesto: 
+
+----
+
+H1: I’m Ben, an interface designer building, consulting on, and writing about web products.
+
+----
+
+Metatitle: Ben Groulx: Vancouver-based Web, UI, & UX Designer
+
+----
+
+Metadesc: A Vancouver designer focusing on web design, user interface design (UI), user experience design (UX), and more.

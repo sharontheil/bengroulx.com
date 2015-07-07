@@ -1,0 +1,41 @@
+Title: Village of Pemberton
+
+----
+
+Type: Web Design
+
+----
+
+Colour: #7db621
+
+----
+
+Year: 2013
+
+----
+
+Role: Designer
+
+----
+
+Text: 
+
+(image: village-of-pemberton-redesign-screen.jpg)
+
+(image: village-of-pemberton-redesign.png)
+
+----
+
+Tags: 
+
+----
+
+Metatitle: Village of Pemberton web redesign
+
+----
+
+Metadesc: 
+
+----
+
+Categories: User interface (UI) design
