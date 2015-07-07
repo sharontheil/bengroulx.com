@@ -1,0 +1,36 @@
+footer {
+    z-index: 9999;
+	padding: 2em 0;
+    font-family: $font_title;
+        @include break(grande) {
+            padding: 5% 0;
+        }
+		p {
+            margin: 0;
+			font-weight: normal;
+			font-size: .7em;
+			text-align: center;
+		}
+		a {
+            box-shadow: none;
+			color: inherit;
+            text-shadow: none;
+		}
+}
+.end {
+    display: block;
+    margin-top: -5em;
+    padding: 5em 5% 2em;
+    background: $black;
+    color: $white;
+    font-family: $font_title;
+    font-size: .75em;
+    text-align: right;
+        @include break(grande) {
+            padding-bottom: 4em;
+        }
+        &:hover {
+            box-shadow: none;
+            color: rgba($white,.5);
+        }
+}

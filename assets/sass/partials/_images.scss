@@ -1,0 +1,103 @@
+img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	height: auto;
+	border: 0;
+}
+figure {
+	margin: 2em 0;
+		img {
+			width: 100%;
+		}
+		figcaption {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			padding: .2em .4em;
+			background: $black;
+			color: $white;
+			font-family: $font_emphasis;
+			font-weight: normal;
+			font-size: .6em;
+            -webkit-font-smoothing: antialiased;
+		}
+}
+article figure {
+    width: 112% !important;
+    margin-left: -6% !important;
+        @include break(venti) {
+            width: 180% !important;
+            margin-left: -40% !important;
+        }
+}
+.image-contain {
+    width: 100% !important;
+    margin-left: 0 !important;
+}
+.image-side-left,
+.image-side-right,
+.image-side-left-far,
+.image-side-right-far {
+	width: 100% !important;
+	height: auto;
+	margin: 2.3em 0 !important;
+    overflow: hidden;
+    text-align: center;
+		@include break(venti) {
+			position: absolute;
+			width: 45%;
+            max-width: 10em;
+            max-height: 20em;
+            overflow: scroll !important;
+		}
+}
+.image-side-left {
+	@include break(venti) {
+		left: -12em;
+	}
+}
+.image-side-right {
+	@include break(venti) {
+		right: -12em;
+	}
+}
+.image-side-left-far {
+	max-width: 40%;
+	@include break(venti) {
+		left: -15em;
+	}
+}
+.image-side-right-far {
+	max-width: 40%;
+	@include break(venti) {
+		right: -15em;
+	}
+}
+.profile {
+    z-index: 0;
+    position: relative;
+    margin-top: -4.5em;
+    @include transition(all .5s ease-out);
+        @include break(grande) {
+            position: absolute;
+            width: 50%;
+            right: -25%;
+                &:hover {
+                    right: -5%;
+                    z-index: 50;
+                }
+        }
+        @include break(venti) {
+            max-width: 25em;
+            margin-top: -12vw;
+            right: -40%;
+                &:hover {
+                    right: -40%;
+                }
+        }
+}
+.image-icon {
+    width: auto !important;
+    margin: 0;
+}

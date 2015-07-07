@@ -1,0 +1,538 @@
+header {
+    width: 100%;
+    padding: 1.75em 5%;
+    text-align: right;
+        @include break(grande) {
+            text-align: center;
+        }
+        img {
+            width: 130px;
+            height: 55px;
+            @include transition (all .2s ease-out);
+                @include break(grande) {
+                    width: 166px;
+                    height: 63px;
+                }
+        }
+        *:hover {
+            box-shadow: none;
+            opacity: .5;
+        }
+}
+.header-about {
+    background-image: url('//bengroulx.com/assets/images/ben-groulx-office.small.jpg');
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+        @include break(grande) {
+                background-image: url('//bengroulx.com/assets/images/ben-groulx-office.large.jpg');
+        }
+        * {
+            color: $white;
+            text-shadow: 0 .25em .5em rgba($black, .9);
+        }
+}
+.header-project {
+    overflow: hidden;
+    text-align: center;
+    text-shadow: 0 .1em .1em rgba(0,0,0,.25);
+        h1 {
+            padding: 0;
+            color: $white;
+        }
+}
+.header-project-image {
+    width: 110%;
+    height: 110%;
+    position: absolute;
+    top: -.5em;
+    left: -.5em;
+    background-size: cover;
+    background-position: center center;
+    opacity: .5;
+    -webkit-filter: blur(.5em);
+       -moz-filter: blur(.5em);
+            filter: blur(.5em);
+}
+.reverse {
+    background-color: $blue;
+    border-bottom: 1px solid rgba($white, .15);
+        * {
+            color: $white
+        }
+}
+.work {
+    z-index: 30;
+	overflow: hidden;
+	padding: 0;
+	background: $black;
+		.product {
+            display: block;
+			width: 100%;
+			height: 12em;
+			overflow: hidden;
+			background: $black;
+			font-size: .7em;
+				@include break(grande) {
+                    float: left;
+					width: 50%;
+					height: 15em;
+					text-shadow: 0 .1em .3em rgba(0,0,0,.2);
+                        &:hover {
+                                h3,
+                                h3 span {
+                                    color: $white;
+                                    text-shadow: 0 .1em .25em #000;
+                                    @include transform(scale(1.1));
+                                }
+                                img {
+                                    opacity: .25;
+                                }
+                        }
+                }
+				@include break(venti) {
+					width: 33.33%;
+				}
+				@include break(tetra) {
+					width: 25%;
+				}
+                &:hover {
+                    box-shadow: none;
+                }
+				&:before {
+					position: absolute;
+					right: -5em;
+					bottom: -7em;
+                    width: 150%;
+                    height: 175%;
+					@include linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.75),rgba(0,0,0,1));
+                    @include transform(rotate(-15deg));
+					content: "\0020";
+				}
+				h3 {
+					z-index: 10;
+					position: absolute;
+                    bottom: 20%;
+					width: 100%;
+                    padding: 0 5%;
+                    color: $white;
+					font-family: $font_title;
+                    font-weight: 300;
+					font-size: 2em;
+					line-height: 1em;
+					text-align: center;
+                    text-shadow: 0 .05em .05em #000;
+                        span {
+							display: block;
+							color: rgba($white,.5);
+							font-family: $font_emphasis;
+							font-weight: normal;
+							font-style: normal;
+							font-size: .4em;
+							letter-spacing: .1em;
+							text-transform: uppercase;
+							white-space: nowrap;
+                        }
+				}
+				img {
+					width: 110%;
+					margin: -5% 0 0;
+					opacity: .15;
+						@include break(grande) {
+							margin: 0 0 -.15em;
+						}
+						@include break(venti) {
+							width: 100%;
+						}
+				}
+		}
+}
+.favourite-list,
+.project-list {
+    list-style: none;
+    text-align: center;
+        li {
+            width: 46%;
+            display: inline-block;
+            vertical-align: top;
+            margin: 2em 0 0;
+            font-size: .8em;
+            line-height: 1.45em;
+                &:nth-child(even) {
+                    margin-left: 5%;
+                }
+                @include break(grande) {
+                    width: 29%;
+                    margin-left: 5%;
+                        &:nth-child(1),
+                        &:nth-child(4) {
+                            margin-left: 0;
+                        }
+                }
+                &:before {
+                    display: none;
+                }
+                span {
+                    display: block;
+                    margin-top: 1em;
+                }
+        }
+}
+.project-image {
+    display: block;
+    width: 100%;
+    height: 0;
+    margin-bottom: .5em;
+    padding-bottom: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+    background-size: 160%;
+    background-position: center center !important;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 .5em rgba($black, .25);
+    text-indent: -99em;
+    @include transition(all .1s ease-out);
+        &:hover {
+            background-size: 190%;
+            box-shadow: none;
+        }
+        &:hover:before {
+            background-color: rgba($black, .75);
+            background-size: 25%;
+        }
+        &:before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba($blue, 0) url("//bengroulx.com/assets/images/icon-arrow-circle.png") center center no-repeat;
+            background-size: 1px;
+            border-radius: 50%;
+            content: "\0020";
+            text-align: center;
+            @include transition(all .2s ease-out);
+        }
+}
+.project-meta,
+.responsibilities {
+    float: left;
+    width: 50%;
+    margin: -1em 0 1em;
+    font-size: .8em;
+    line-height: 1em;
+    @include _clearfix;
+        @include break(grande) {
+            width: 100%;
+            margin: 0 0 3em;
+        }
+}
+.project-meta {
+	list-style: none;
+		li {
+            margin: 0;
+            margin-bottom: 1em;
+                @include break(grande) {
+                    display: block;
+                    float: left;
+                    width: 33.33%;
+                    margin: 0 0 0 -1px;
+                    padding: .6em 1em;
+                    border: 1px solid $grey;
+                    overflow: hidden;
+                    font-weight: bold;
+                    line-height: 1.5em;
+                    text-align: center;
+                    text-overflow: ellipsis;
+                        strong {
+                            white-space: nowrap;
+                        }
+                }
+				&:before {
+					display: none;
+				}
+		}
+}
+.responsibilities {
+        @include break(grande) {
+            z-index: 30;
+            position: absolute;
+            width: auto;
+            top: 10em;
+            right: 0;
+            padding: 1.5em 1.5em .5em;
+            background: $white;
+            box-shadow: .3em .3em .75em rgba(0,0,0,.25);
+        }
+        @include break(venti) {
+            top: 17em;
+            right: -30%;
+            opacity: 0;
+            @include transform(translateY(150px));
+            @include animation(come-in 5s ease forwards);
+        }
+        h6 {
+            margin-bottom: .5em;
+        }
+        ul {
+        }
+}
+.project-next {
+	width: 100%;
+	margin: 0 auto 3em;
+	padding: 2em 0;
+	border-top: 1px dashed #ccc;
+	text-align: center;
+	@include _clearfix;
+		@include break(grande) {
+			padding: 5% 0 !important;
+		}
+		.project-prev {
+			float: left;
+		}
+		.project-next {
+			float: right;
+		}
+		a:hover {
+			color: $gold;
+		}
+}
+.connect {
+	overflow: hidden;
+		.map {
+			display: none;
+				@include break(venti) {
+					z-index: -1;
+					display: block;
+					position: absolute;
+					top: 0;
+					right: -14em;
+					width: 620px;
+					height: 930px;
+					background: url("//bengroulx.com/assets/images/map-westcoast.gif");
+					@include transition (all .2s ease-out);
+				}
+				@include break(tetra) {
+					right: -10em;
+				}
+		}
+		.map-pemberton {
+			top: 44%;
+			right: 50%;
+		}
+		.map-vancouver {
+			top: 47%;
+			right: 53%;
+		}
+		.map-pemberton,
+		.map-vancouver {
+			display: block;
+			position: absolute;
+			color: $black;
+			font-family: $font_title;
+			font-size: .8em;
+            text-shadow: 0 0 .25em $white;
+				&:after {
+					display: inline-block;
+					width: .7em;
+					height: .7em;
+					margin-left: .5em;
+					background: $gold;
+					content: "\0020";
+					border-radius: 50%;
+				}
+				&:before {
+                    z-index: 10;
+					display: block;
+					position: absolute;
+					top: .45em;
+					right: -.05em;
+					width: .7em;
+					height: .7em;
+					border: 1px solid $gold;
+					border-radius: 50%;
+        			@include transition (all .3s linear);
+					@include _animateBlip;
+					content: "\0020";
+				}
+				&:hover {
+					opacity: .5;
+				}
+		}
+}
+.faq {
+		p em {
+			color: darken($grey,5%);
+            font-family: $font-title;
+            font-style: normal !important;
+            font-weight: 700 !important;
+				&:before {
+					margin-right: 1.35em;
+					margin-left: -2em;
+					content: "+";
+					font-style: normal;
+					color: darken($grey,20%);
+				}
+		}
+}
+.blog-recent {
+    text-align: center;
+    line-height: 1.5em;
+        a {
+            border-bottom: 1px solid $white;
+                &:hover {
+                    border-bottom: 0;
+                }
+        }
+}
+.blog-intro,
+.blog-list {
+    text-align: center;
+        li {
+            margin: 0 0 1.5em;
+            line-height: 1.25em;
+       }
+        li:before {
+            display: none;
+        }
+}
+.blog-intro {
+    border-bottom: 1px solid $grey;
+        & + & {
+            border-left: 1px solid $grey;
+        }
+}
+.blog-list {
+    padding: 10% 0;
+        @include break(grande) {
+            padding: 3% 0 2.5%;
+        }
+        li {
+        }
+		span {
+            margin-top: .75em;
+            display: block;
+			color: $black;
+			font-family: $font_emphasis;
+			font-weight: normal;
+			font-size: .6em;
+            line-height: 1em;
+			text-transform: uppercase;
+			letter-spacing: .1em;
+            white-space: nowrap;
+			@include transition(all .15s ease-out);
+		}
+}
+.blog-all {
+    clear: both;
+}
+.blog-title {
+    z-index: 2;
+    padding: 0 5%;
+    text-align: center;
+        @include break(grande) {
+            padding: 0 10%;
+		}
+}
+.share-icons {
+	width: 100%;
+	padding: 2em 0;
+	border: 1px dashed #ccc;
+	border-left: 0;
+	border-right: 0;
+	text-align: center;
+	@include _clearfix;
+		a {
+			overflow: hidden;
+			display: block;
+			float: left;
+			width: 23.5%;
+			padding: 1em 0;
+            border-radius: .2em;
+            background: rgba($grey,.15);
+			font-family: $font_emphasis;
+			font-size: .75em;
+            white-space: nowrap;
+				@include break(grande) {
+                    padding: 1em 0;
+                    border: 1px solid $grey;
+                    background: $white;
+                    font-size: 1em;
+                        &:hover {
+                        }
+				}
+		}
+		a + a {
+			margin-left: 2%;
+        }
+}
+.icon-email,
+.icon-twitter,
+.icon-linkedin,
+.icon-facebook,
+.icon-instagram,
+.icon-google-plus {
+    white-space: nowrap;
+}
+.icon-twitter       { color: #55acee; }
+.icon-linkedin      { color: #117cb3; }
+.icon-facebook      { color: #3c5a96; }
+.icon-instagram     { color: #316699; }
+.icon-google-plus   { color: #de3135; }
+
+.icon-email:before,
+.icon-twitter:before,
+.icon-linkedin:before,
+.icon-facebook:before,
+.icon-instagram:before,
+.icon-google-plus:before { 
+    position: relative;
+    display: inline-block;
+    top: .05em;
+    margin-right: .2em;
+    width: .85em;
+    height: .85em;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    content: "";
+}
+.icon-email:before       { background-image: url("//bengroulx.com/assets/images/icon-email.svg"); }
+.icon-twitter:before     { background-image: url("//bengroulx.com/assets/images/icon-twitter.svg"); }
+.icon-linkedin:before    { background-image: url("//bengroulx.com/assets/images/icon-linkedin.svg"); }
+.icon-facebook:before    { background-image: url("//bengroulx.com/assets/images/icon-facebook.svg"); }
+.icon-instagram:before   { background-image: url("//bengroulx.com/assets/images/icon-instagram.svg"); }
+.icon-google-plus:before { background-image: url("//bengroulx.com/assets/images/icon-google-plus.svg"); }
+
+.tag-cloud {
+    @include break(venti) {
+        padding: 10% 0;
+    }
+}
+.fluid-width-video-wrapper {
+    margin: 10% 0;
+        @include break(venti) {
+            padding-bottom: 30% !important;
+        }
+}
+.listen {
+    margin: -1em 0 3em;
+    padding: 1.25em;
+    border: 1px solid rgba($black, .1);
+    background: rgba($black, .05);
+    font-size: .7em;
+        audio {
+            margin: .75em 0 .5em;
+                @include break(grande) {
+                }
+        }
+        a {
+            text-decoration: underline;
+                &:hover {
+                    text-decoration: none;
+                }
+        }
+        span {
+            white-space: nowrap;
+        }
+}
