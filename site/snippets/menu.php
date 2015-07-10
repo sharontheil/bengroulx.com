@@ -10,9 +10,9 @@
     <div class="navigation-wrapper row">
         <div class="half-block">
             <ul class="primary-nav">
-                <?php foreach($pages->visible() as $page): ?>
+<?php foreach($pages->visible() as $page): ?>
                 <li><a href="<?php echo $page->url() ?>"><?php echo $page->title()->html() ?></a></li>
-                <?php endforeach ?>
+<?php endforeach ?>
             </ul>
         </div>
         <div class="half-block">

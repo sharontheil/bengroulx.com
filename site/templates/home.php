@@ -31,7 +31,7 @@
     <a href="<?php echo $project->url() ?>" class="product" style="background-color:<?php echo $project->colour()->html() ?>">
         <h3 class="diagonal-inner"><?php echo $project->title()->html() ?> <span><?php echo $project->type()->html() ?></span></h3>
         <?php if($image = $project->images()->sortBy('sort', 'asc')->first()): ?>
-        <img src="<?php echo $image->url() ?>" alt="<?php echo $project->title()->html() ?>" >
+        <img src="<?php echo $image->url() ?>" alt="<?php echo $project->title()->html() ?>" width="500" height="320" />
         <?php endif ?>
     </a>
     <?php endforeach ?>

@@ -1,0 +1,1 @@
+/* Render main navigation animation */ jQuery(document).ready(function(n){var i=!1;n(".nav-trigger").on("click",function(t){t.preventDefault(),i||(n(this).parents(".csstransitions").length>0&&(i=!0),n("body").toggleClass("navigation-is-open"),n(".navigation-wrapper").one("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend",function(){i=!1}))})});

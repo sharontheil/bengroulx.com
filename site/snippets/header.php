@@ -50,10 +50,13 @@
     <!-- STYLES -->
     <style><?php readfile("assets/css/min.screen.css"); ?></style>
 
-    <!-- LOAD JAVASCRIPT -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- LIBRARIES -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <script><?php readfile("assets/js/min.scripts.js"); ?></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    
+    <!-- JAVASCRIPT -->
+    <script><?php readfile("assets/js/min.fitvids.js"); ?></script>
+    <script><?php readfile("assets/js/min.navigation.js"); ?></script>
 
     <!-- ICONS -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
