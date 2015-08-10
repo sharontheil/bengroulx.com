@@ -8,7 +8,7 @@ Year: 2012
 
 Text: 
 
-(image: whistler-foundation-design.jpg)
+(image: redesign-whistler-foundation.jpg)
 
 (image: whistler-foundation-sketch.jpg class: image-contain)
 

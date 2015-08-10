@@ -36,3 +36,7 @@ fields:
         label: META Description
         type:  textarea
         icon:  file-code-o
+    metacanon:
+        label: META Canonical
+        type:  text
+        icon:  arrows-h

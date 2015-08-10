@@ -20,7 +20,7 @@ Role: Designer
 
 Text: 
 
-(image: mile-one-eating-house-screen.jpg)
+(image: redesign-mile-one-eating-house.jpg)
 
 (image: mile-one-eating-house-redesign-mobile.png)
 

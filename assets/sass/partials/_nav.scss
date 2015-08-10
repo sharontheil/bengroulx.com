@@ -140,11 +140,14 @@
             margin-top: 1.75em;
             text-align: right;
                 @include break(grande) {
+                    margin: 3em 0;
+                }
+                @include break(supersize) {
                     margin: 5em 0;
                 }
                 li {
                     margin: 0;
-                    line-height: 1.5em;
+                    line-height: 1.4em;
                         &:before {
                             display: none;
                         }

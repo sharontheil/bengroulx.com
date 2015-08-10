@@ -8,7 +8,7 @@ Year: 2012
 
 Text: 
 
-(image: pemberton-museum-design.jpg)
+(image: redesign-pemberton-museum.jpg)
 
 (image: pemberton-museum-sketch.jpg class: image-contain)
 

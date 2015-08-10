@@ -31,8 +31,11 @@ main {
 	margin: 0 auto;
 	padding: 0 5%;
     	@include break(tetra) {
-            max-width: 37em;
+            max-width: 33em;
             padding: 0 2em;
+   	    }
+    	@include break(supersize) {
+            max-width: 37em;
    	    }
 }
 .row {

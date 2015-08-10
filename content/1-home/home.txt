@@ -34,7 +34,7 @@ Manifesto:
 
 ----
 
-H1: I’m Ben, an interface designer building, consulting on, and writing about web products.
+H1: I’m Ben, a designer working in the intersection of <small>UI</small>, <small>UX</small>, and graphic design.
 
 ----
 

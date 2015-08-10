@@ -4,7 +4,7 @@ h3,
 h4 {
     color: $blue;
     font-family: $font_title;
-	line-height: 1.25em;
+	line-height: 1.15em;
     font-variant-ligatures: common-ligatures;
     -webkit-font-feature-settings: "liga", "clig";
        -moz-font-feature-settings: "liga", "clig";
@@ -13,14 +13,18 @@ h4 {
 }
 h1 {
 	padding: 0 0 1em;
-    font-weight: 100;
+    font-weight: 900;
 	font-size: 2em;
 		@include break(grande) {
 			font-size: 2.25em;
 		}
         @include break(venti) {
 			padding-top: .5em;
-			font-size: 4.7vw;
+			font-size: 5vw;
+		}
+        @include break(supersize) {
+			padding-top: .5em;
+			font-size: 2.75em;
 		}
 }
 h2 {
@@ -28,7 +32,7 @@ h2 {
     font-weight: 100;
 	font-size: 1.75em;
 		@include break(grande) {
-			font-size: 2em;
+			font-size: 2.25em;
 		}
 }
 h3 {
@@ -141,12 +145,14 @@ blockquote {
     font-family: $font_title;
 	font-style: italic;
     font-weight: 100;
-	font-size: 1.3em;
+	font-size: 1.6em;
+    line-height: 1.4em;
         p {
             margin: 0;
         }
 }
 small {
+    font-size: 1em;
     font-variant-caps: all-small-caps;
     -webkit-font-feature-settings: "c2sc", "smcp";
        -moz-font-feature-settings: "c2sc", "smcp";
@@ -216,16 +222,18 @@ code {
 }
 .button {
 	display: block;
-	padding: 1em .5em;
+	padding: 1.5em .75em;
 	border: 1px solid $blue;
 	border-radius: .25em;
     background: rgba(200,200,200,.1);
     box-shadow: none;
     color: lighten($blue,10%);
-    font-family: $font_title;
-    font-size: 1.25em;
-    text-align: center;
+    font-family: $font_emphasis;
     font-weight: 300;
+    font-size: .75em;
+    letter-spacing: .25em;
+    text-align: center;
+    text-transform: uppercase;
     text-decoration: none !important;
     text-rendering: optimizeLegibility;
 		&:hover {
@@ -299,6 +307,7 @@ code {
 	border-radius: .3em;
 	background: $white;
 	color: $blue !important;
+    font-family: $font_emphasis;
 	font-weight: normal;
 	font-size: .7em;
 	line-height: 2em;

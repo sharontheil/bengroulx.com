@@ -12,6 +12,8 @@ Text:
 
 (image: poster-ampersand.jpg class:image-contain)
 
+(image: slow-food-cycle-sunday.png class:image-contain)
+
 (image: poster-hoedown.jpg class:image-contain)
 
 (image: poster-airborn.jpg class:image-contain)
@@ -28,11 +30,11 @@ Text:
 
 ----
 
-Metatitle: Various Posters
+Metatitle: Posters Design
 
 ----
 
-Metadesc: 
+Metadesc: Browse various posters and printed designs created by Ben Groulx over the years.
 
 ----
 

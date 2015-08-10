@@ -12,7 +12,7 @@ Year: 2014
 
 Text: 
 
-(image: lodging-ovations-screen.jpg)
+(image: redesign-lodging-ovations.jpg)
 
 (image: lodging-ovations-design-mobile.png)
 

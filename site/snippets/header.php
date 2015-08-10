@@ -21,6 +21,7 @@
     <meta name="description" content="<?php echo $page->metadesc()->html() ?>" />
     <meta name="keywords" content="<?php echo $site->keywords()->html() ?>" />
     <meta name="author" content="<?php echo $site->title()->html() ?>" />
+    <link rel="canonical" href="<?php echo $page->metacanon() ?>" />
 
     <!-- FACEBOOK OPEN GRAPH -->
     <meta property="og:type" content="website" />
@@ -55,6 +56,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     
     <!-- JAVASCRIPT -->
+    <script src="//use.typekit.net/bcc4dok.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <script><?php readfile("assets/js/min.fitvids.js"); ?></script>
     <script><?php readfile("assets/js/min.navigation.js"); ?></script>
 

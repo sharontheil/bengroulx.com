@@ -61,6 +61,26 @@ header {
             color: $white
         }
 }
+.home {
+    @include linear-gradient(175deg, #222, $blue);
+}
+.home-hero {
+    padding: 5% 5% 9%;
+    text-align: center;
+        h1 {
+            color: $white;
+            max-width: 20em;
+            margin: 0 auto;
+        }
+        .button {
+            display: inline-block;
+            margin: .5em;
+            padding: 1em;
+            font-size: .6em;
+            border-color: $white;
+            color: $white;
+        }
+}
 .work {
     z-index: 30;
 	overflow: hidden;
@@ -91,10 +111,8 @@ header {
                         }
                 }
 				@include break(venti) {
-					width: 33.33%;
-				}
-				@include break(tetra) {
 					width: 25%;
+					height: 13em;
 				}
                 &:hover {
                     box-shadow: none;
@@ -102,12 +120,16 @@ header {
 				&:before {
 					position: absolute;
 					right: -5em;
-					bottom: -7em;
+					bottom: -10em;
                     width: 150%;
-                    height: 175%;
+                    height: 250%;
 					@include linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.75),rgba(0,0,0,1));
                     @include transform(rotate(-15deg));
 					content: "\0020";
+                        @include break(grande) {
+                            bottom: -7em;
+                            height: 175%;
+                        }
 				}
 				h3 {
 					z-index: 10;
@@ -117,7 +139,7 @@ header {
                     padding: 0 5%;
                     color: $white;
 					font-family: $font_title;
-                    font-weight: 300;
+                    font-weight: 700;
 					font-size: 2em;
 					line-height: 1em;
 					text-align: center;
@@ -379,7 +401,7 @@ header {
     text-align: center;
     line-height: 1.5em;
         a {
-            border-bottom: 1px solid $white;
+            border-bottom: 1px solid $blue;
                 &:hover {
                     border-bottom: 0;
                 }
@@ -505,9 +527,10 @@ header {
 .icon-google-plus:before { background-image: url("//bengroulx.com/assets/images/icon-google-plus.svg"); }
 
 .tag-cloud {
-    @include break(venti) {
-        padding: 10% 0;
-    }
+    padding-bottom: 5%;
+        @include break(venti) {
+            padding: 10% 0;
+        }
 }
 .fluid-width-video-wrapper {
     margin: 10% 0;
